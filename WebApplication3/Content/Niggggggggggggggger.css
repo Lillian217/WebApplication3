@@ -1,0 +1,12 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.img-magnifier-container {
+    position: relative;
+}
+
+.Red-october {
+ width:350px;
+height:250px;
+}
