@@ -18,18 +18,19 @@
         {
             var shoes = new List<Shoe>
             {
-                new Shoe{name="OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'CHICAGO'", prize=20},
-                new Shoe{name="OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'UNC'", prize=30},
-                new Shoe{name="DIOR X AIR JORDAN 1 HIGH", prize=40},
-                new Shoe{name="OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'WHITE' 2018", prize=50},
-                new Shoe{name="AIR JORDAN 1 RETRO HIGH OG 'FEARLESS'", prize=60},
-                new Shoe{name="AIR JORDAN 1 RETRO HIGH OG 'OBSIDIAN'", prize=20},
-                new Shoe{name="OFF-WHITE X AIR FORCE 1 LOW '07 'MCA'", prize=30},
-                new Shoe{name="OFF-WHITE X AIR FORCE 1 LOW '07 'VOLT'", prize=40},
-                new Shoe{name="OFF-WHITE X AIR FORCE 1 LOW 'THE TEN'", prize=50},
+                new Shoe {name = "OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'CHICAGO'", prize = 1000},
+                new Shoe {name = "OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'UNC'", prize = 1100},
+                new Shoe {name = "DIOR X AIR JORDAN 1 HIGH", prize = 1200},
+                new Shoe {name = "OFF-WHITE X AIR JORDAN 1 RETRO HIGH OG 'WHITE' 2018", prize = 1122},
+                new Shoe {name = "AIR JORDAN 1 RETRO HIGH OG 'FEARLESS'", prize = 1808},
+                new Shoe {name = "AIR JORDAN 1 RETRO HIGH OG 'OBSIDIAN'", prize = 1236},
+                new Shoe {name = "OFF-WHITE X AIR FORCE 1 LOW '07 'MCA'", prize = 1632},
+                new Shoe {name = "OFF-WHITE X AIR FORCE 1 LOW '07 'VOLT'", prize = 1831},
+                new Shoe {name = "OFF-WHITE X AIR FORCE 1 LOW 'THE TEN'", prize = 1876},
             };
-            shoes.ForEach(s => context.Shoes.AddOrUpdate(p => p.prize, s));
+            shoes.ForEach(s => context.Shoes.AddOrUpdate(p => p.name, s));
             context.SaveChanges();
+
         }
     }
 }

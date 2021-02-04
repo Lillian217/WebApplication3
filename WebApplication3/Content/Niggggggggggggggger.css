@@ -7,6 +7,16 @@
 }
 
 .Red-october {
- width:350px;
-height:250px;
+    width: 350px;
+    height: 250px;
+}
+
+#banner {
+    width: 100%;
+    height: 320px;
+}
+
+#yes {
+    text-decoration: solid;
+    text-decoration: underline;
 }

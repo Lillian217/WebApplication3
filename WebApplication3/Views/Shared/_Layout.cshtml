@@ -21,12 +21,13 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Browse", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Help", "About", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
             </div>
         </div>
     </div>
+    <img id="banner" src="~/Controllers/Billeder/image-asset.jpeg" style="width:100%; height: 320px;" />
     <div class="container body-content">
         @RenderBody()
         <hr />
