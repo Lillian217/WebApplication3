@@ -291,7 +291,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Niggggggggggggggger.css" />
-    <Content Include="Controllers\Billeder\4-40810_red-october-yeezy-air-yeezy-2-red-october.png" />
+    <Content Include="Controllers\Billeder\1 %281%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %282%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %283%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %284%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %285%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %286%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %287%29.jpg" />
+    <Content Include="Controllers\Billeder\1 %288%29.jpg" />
+    <Content Include="Controllers\Billeder\1.jpg" />
+    <Content Include="Controllers\Billeder\image-asset.jpeg" />
+    <Content Include="Controllers\Billeder\img01.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -445,6 +455,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
