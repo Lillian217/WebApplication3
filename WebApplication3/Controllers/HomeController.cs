@@ -26,5 +26,12 @@ namespace WebApplication3.Controllers
 
             return View();
         }
+
+        public ActionResult ProductDetail()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
